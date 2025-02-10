@@ -1,0 +1,224 @@
+{
+  "AllData": [
+    {
+      "product_id": "laptop_001",
+      "product_title": "Dell XPS 13",
+      "product_image": "https://example.com/dell_xps13.jpg",
+      "category": "Laptop",
+      "price": 999.99,
+      "description": "The Dell XPS 13 is a compact, high-performance laptop with long battery life.",
+      "specification": ["13.3-inch display", "Intel Core i7 processor"],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": "laptop_002",
+      "product_title": "MacBook Pro 14",
+      "product_image": "https://example.com/macbook_pro14.jpg",
+      "category": "Laptop",
+      "price": 1999.99,
+      "description": "Powerful MacBook with advanced M1 Pro chip and stunning Retina display.",
+      "specification": ["14-inch Retina display", "M1 Pro chip"],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "laptop_003",
+      "product_title": "HP Spectre x360",
+      "product_image": "https://example.com/hp_spectre_x360.jpg",
+      "category": "Laptop",
+      "price": 1499.99,
+      "description": "A premium 2-in-1 laptop with a sleek design and convertible features.",
+      "specification": ["13.5-inch OLED display", "Intel Core i5 processor"],
+      "availability": true,
+      "rating": 4.4
+    },
+    {
+      "product_id": "laptop_004",
+      "product_title": "Asus ZenBook 14",
+      "product_image": "https://example.com/asus_zenbook14.jpg",
+      "category": "Laptop",
+      "price": 899.99,
+      "description": "Affordable laptop with solid performance and a slim design.",
+      "specification": ["14-inch display", "AMD Ryzen 5 processor"],
+      "availability": true,
+      "rating": 4.3
+    },
+    {
+      "product_id": "laptop_005",
+      "product_title": "Lenovo ThinkPad X1 Carbon",
+      "product_image": "https://example.com/lenovo_thinkpad_x1.jpg",
+      "category": "Laptop",
+      "price": 1799.99,
+      "description": "Business-oriented laptop with excellent durability and performance.",
+      "specification": ["14-inch display", "Intel Core i7 processor"],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": "phone_001",
+      "product_title": "iPhone 14",
+      "product_image": "https://example.com/iphone_14.jpg",
+      "category": "Phone",
+      "price": 799.99,
+      "description": "Apple's latest smartphone with advanced camera and display features.",
+      "specification": ["6.1-inch display", "A15 Bionic chip"],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "phone_002",
+      "product_title": "Samsung Galaxy S22",
+      "product_image": "https://example.com/galaxy_s22.jpg",
+      "category": "Phone",
+      "price": 999.99,
+      "description": "Samsung's flagship phone with powerful performance and a stunning AMOLED display.",
+      "specification": ["6.1-inch AMOLED display", "Exynos 2200 processor"],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "phone_003",
+      "product_title": "Google Pixel 6",
+      "product_image": "https://example.com/pixel_6.jpg",
+      "category": "Phone",
+      "price": 599.99,
+      "description": "Google's smartphone with an incredible camera and clean software experience.",
+      "specification": ["6.4-inch OLED display", "Google Tensor chip"],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": "phone_004",
+      "product_title": "OnePlus 9 Pro",
+      "product_image": "https://example.com/oneplus_9_pro.jpg",
+      "category": "Phone",
+      "price": 1069.99,
+      "description": "OnePlus's flagship phone with a smooth display and excellent camera.",
+      "specification": ["6.7-inch AMOLED display", "Snapdragon 888 processor"],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": "phone_005",
+      "product_title": "Xiaomi Mi 11",
+      "product_image": "https://example.com/xiaomi_mi11.jpg",
+      "category": "Phone",
+      "price": 749.99,
+      "description": "Xiaomi's premium phone with powerful features at an affordable price.",
+      "specification": ["6.81-inch AMOLED display", "Snapdragon 888 processor"],
+      "availability": true,
+      "rating": 4.4
+    },
+    {
+      "product_id": "watch_001",
+      "product_title": "Apple Watch Series 8",
+      "product_image": "https://example.com/apple_watch8.jpg",
+      "category": "Smartwatch",
+      "price": 399.99,
+      "description": "Apple's latest smartwatch with advanced health and fitness features.",
+      "specification": ["1.9-inch display", "S8 chip"],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "watch_002",
+      "product_title": "Samsung Galaxy Watch 5",
+      "product_image": "https://example.com/galaxy_watch5.jpg",
+      "category": "Smartwatch",
+      "price": 279.99,
+      "description": "Stylish smartwatch with health tracking and 4G LTE support.",
+      "specification": ["1.4-inch AMOLED display", "Exynos W920 processor"],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "watch_003",
+      "product_title": "Fitbit Sense 2",
+      "product_image": "https://example.com/fitbit_sense2.jpg",
+      "category": "Smartwatch",
+      "price": 299.99,
+      "description": "Health-focused smartwatch with ECG, skin temperature sensor, and more.",
+      "specification": ["1.58-inch AMOLED display", "Fitbit OS"],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": "watch_004",
+      "product_title": "Garmin Fenix 7",
+      "product_image": "https://example.com/garmin_fenix7.jpg",
+      "category": "Smartwatch",
+      "price": 699.99,
+      "description": "Rugged multisport GPS smartwatch with excellent battery life.",
+      "specification": ["1.3-inch display", "Built-in GPS"],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": "watch_005",
+      "product_title": "Amazfit GTR 3 Pro",
+      "product_image": "https://example.com/amazfit_gtr3pro.jpg",
+      "category": "Smartwatch",
+      "price": 229.99,
+      "description": "Stylish and affordable smartwatch with health and fitness tracking.",
+      "specification": ["1.45-inch AMOLED display", "Amazfit OS"],
+      "availability": true,
+      "rating": 4.4
+    },
+    {
+      "product_id": "macbook_001",
+      "product_title": "MacBook Air M2",
+      "product_image": "https://example.com/macbook_air_m2.jpg",
+      "category": "MacBook",
+      "price": 1199.99,
+      "description": "Lightweight and powerful MacBook with Apple's M2 chip.",
+      "specification": ["13.6-inch Retina display", "Apple M2 chip"],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "macbook_002",
+      "product_title": "MacBook Pro 16 M1 Max",
+      "product_image": "https://example.com/macbook_pro_16.jpg",
+      "category": "MacBook",
+      "price": 2499.99,
+      "description": "Powerful 16-inch MacBook Pro with M1 Max chip for professionals.",
+      "specification": ["16-inch Retina display", "M1 Max chip"],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "macbook_003",
+      "product_title": "MacBook Pro 13 M1",
+      "product_image": "https://example.com/macbook_pro_13.jpg",
+      "category": "MacBook",
+      "price": 1499.99,
+      "description": "13-inch MacBook Pro with Apple's M1 chip for efficient performance.",
+      "specification": ["13.3-inch Retina display", "Apple M1 chip"],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": "macbook_004",
+      "product_title": "MacBook Air M1",
+      "product_image": "https://example.com/macbook_air_m1.jpg",
+      "category": "MacBook",
+      "price": 999.99,
+      "description": "Thin, light, and fast MacBook Air with M1 chip.",
+      "specification": ["13.3-inch Retina display", "Apple M1 chip"],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": "macbook_005",
+      "product_title": "MacBook Pro 15",
+      "product_image": "https://example.com/macbook_pro_15.jpg",
+      "category": "MacBook",
+      "price": 2199.99,
+      "description": "MacBook Pro with large screen and powerful performance.",
+      "specification": ["15-inch Retina display", "Intel Core i7 processor"],
+      "availability": true,
+      "rating": 4.4
+    }
+  ]
+}
