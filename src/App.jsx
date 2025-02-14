@@ -8,11 +8,13 @@ function App() {
 
   return (
     <>
-      <Navbar></Navbar>
-      <div className='min-h-[calc(100vh-285px)]'>
-        <Outlet></Outlet>
+      <div className='container mx-auto'>
+        <Navbar></Navbar>
+        <div className='min-h-[calc(100vh-285px)]'>
+          <Outlet></Outlet>
+        </div>
+        <Footer></Footer>
       </div>
-      <Footer></Footer>
     </>
   )
 }

@@ -1,3 +1,4 @@
+
 import Banner from '../../../assets/banner.jpg'
 import CategoryBtn from '../../HomePages/CategoryBtn';
 
@@ -16,7 +17,7 @@ const Home = () => {
             <div className="w-2xs md:w-5xl mx-auto min-h-[560px] p-1 md:p-4 rounded-2xl border-2 border-white absolute top-[440px] md:top-[400px] left-12 md:left-48">
                 <img className='rounded-2xl' src={Banner} alt="" />
             </div>
-<CategoryBtn></CategoryBtn>
+            <CategoryBtn></CategoryBtn>
         </>
     );
 };

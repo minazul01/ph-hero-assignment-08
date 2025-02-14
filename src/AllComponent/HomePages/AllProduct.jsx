@@ -1,30 +1,36 @@
 
+import PropTypes from 'prop-types';
 
 
-const AllProduct = () => {
-    // const data = useLoaderData();
-    // console.log(data.phones)
-    // console.log(data.laptops)
-    // console.log(data.smartwatches)
-    // console.log(data.macbooks)
+const AllProduct = ({product}) => {
+    // console.log(product)
+    const {product_title, product_image, price} = product
+
 
     return (
-        <div className="card bg-base-100 shadow-sm w-[300px]">
-            <figure className="px-10 pt-10 w-[282px]">
-                <img
-                    src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                    alt="Shoes"
-                    className="rounded-xl" />
-            </figure>
-            <div className="card-body items-center text-center">
-                <h2 className="card-title">Card Title</h2>
-                <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-                <div className="card-actions">
-                    <button className="btn btn-primary">Buy Now</button>
+        <>
+        {/* <Outlet></Outlet> */}
+            <div className="card bg-base-100 shadow-sm ">
+                <figure className="px-10 pt-10 ">
+                    <img
+                        src={product_image}
+                        alt="product"
+                        className="rounded-xl h-[200px]" />
+                </figure>
+                <div className="card-body items-start text-center">
+                    <h2 className="card-title">{product_title}</h2>
+                    <p>Price : ${price}</p>
+                    <div className="card-actions">
+                        <button className="btn btn-primary">Buy Now</button>
+                    </div>
                 </div>
             </div>
-        </div>
+        </>
     );
 };
+
+AllProduct.propTypes = {
+    product: PropTypes.object,
+}
 
 export default AllProduct;
