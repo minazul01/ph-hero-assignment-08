@@ -7,13 +7,13 @@ import Dashboard from "../Header/NavbarPages/Dashboard";
 import Upcomig from "../Header/NavbarPages/Upcomig";
 
 
+
+
 import AllProduct from "../HomePages/AllProduct";
 import Laptop from "../HomePages/Laptop";
-import Iphone from '../HomePages/Iphone';
-import Assesories from '../HomePages/Assesories';
-import Watch from '../HomePages/Watch';
 import Mackbook from '../HomePages/Mackbook';
-
+import Iphone from '../HomePages/Iphone';
+import Watch from '../HomePages/Watch';
 const router = createBrowserRouter([
     {
       path: "/",
@@ -23,31 +23,29 @@ const router = createBrowserRouter([
             {
               path: '/',
               element: <Home></Home>,
+              loader: () => fetch('./public/Alldata.json'),
                  children: [
                   {
                     path: '/allproduct',
                     element: <AllProduct></AllProduct>
                   },
                   {
-                    path: '/laptop',
+                    path: '/labtop',
                     element: <Laptop></Laptop>
+                  },
+                  {
+                  
+                      path: '/mackbook',
+                      element:<Mackbook></Mackbook>
                   },
                   {
                     path: '/iphone',
                     element: <Iphone></Iphone>
                   },
                   {
-                    path: '/accessories',
-                    element: <Assesories></Assesories>
-                  },
-                  {
                     path: '/watch',
                     element: <Watch></Watch>
                   },
-                  {
-                    path: '/mackbook',
-                    element: <Mackbook></Mackbook>
-                  }
                  ]
             },
             {
