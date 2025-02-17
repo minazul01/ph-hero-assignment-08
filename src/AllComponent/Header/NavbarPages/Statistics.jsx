@@ -1,9 +1,12 @@
+import { Helmet } from "react-helmet-async";
 
-import Resual from '../../ResualComponent/Resual'
 const Statistics = () => {
     return (
         <div>
-            <Resual title='hey' subTitle='i am minazul'></Resual>
+            <Helmet>
+                <title>Satistic pages</title>
+            </Helmet>
+            <h1>hey satictic</h1>
         </div>
     );
 };

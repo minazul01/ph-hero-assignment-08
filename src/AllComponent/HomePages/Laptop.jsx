@@ -3,7 +3,7 @@
 const Laptop = () => {
     return (
         <div>
-            
+
         </div>
     );
 };

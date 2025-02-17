@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types';
 
 const Card = ({ item }) => {
-    console.log(item)
     const { product_title, product_image, price } = item
     return (
         <div>
