@@ -1,6 +1,7 @@
 
 
-const Iphone = () => {
+const AllData = () => {
+
     return (
         <div>
             
@@ -8,4 +9,4 @@ const Iphone = () => {
     );
 };
 
-export default Iphone;
+export default AllData;

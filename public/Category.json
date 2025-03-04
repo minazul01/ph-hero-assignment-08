@@ -1,27 +1,23 @@
 [
     {
-      "id": 1,
-      "category": "All product",
-      "slug": "all-product"
-    },
-    {
       "id": 2,
       "category": "Laptop",
-      "slug": "laptop"
+      "slug": "labtop"
     },
     {
       "id": 3,
       "category": "Smartwatch",
-      "slug": "smartwatch"
+      "slug": "watch"
     },
     {
-      "id": 3,
-      "category": "MacBook",
-      "slug": "macBook"
-    },
-    {
-      "id": 3,
+      "id": 4,
       "category": "Phone",
-      "slug": "phone"
+      "slug": "iphone"
+    },
+    {
+      "id": 5,
+      "category": "MacBook",
+      "slug": "mackbook"
     }
+  
   ]

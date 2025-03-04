@@ -2,6 +2,7 @@
 
 
 
+
 import Banner from '../../../assets/banner.jpg'
 import CategoryBtn from '../../HomePages/CategoryBtn';
 

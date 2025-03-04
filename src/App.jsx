@@ -16,6 +16,9 @@ function App() {
         <div className='min-h-[calc(100vh-285px)]'>
           <Outlet></Outlet>
         </div>
+        <main>
+           
+        </main>
         <Footer></Footer>
       </div>
     </>
