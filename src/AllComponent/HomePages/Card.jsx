@@ -49,7 +49,7 @@ const Card = () => {
                                     <p>${price}</p>
                                     <div className="card-actions">
                                         <Link to={`/product/${product_id}`} className='btn rounded-2xl cursor-pointer hover:bg-gray-200 bg-blue-600'>
-                                            <button>View Details</button>
+                                            <button >View Details</button>
                                         </Link>
                                     </div>
                                 </div>

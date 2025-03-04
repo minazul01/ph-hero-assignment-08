@@ -2,7 +2,7 @@
 
 const Footer = () => {
     return (
-        <div className="container mx-auto mt-20 md:mt-[450px]">
+        <div className="container mx-auto mt-96 md:mt-[450px]">
             <footer className="footer sm:footer-horizontal bg-base-200 text-base-content p-10">
                 <nav>
                     <h6 className="footer-title">Services</h6>
