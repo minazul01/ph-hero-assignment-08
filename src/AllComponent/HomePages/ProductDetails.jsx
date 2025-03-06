@@ -1,23 +1,35 @@
 import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 import { CiHeart } from "react-icons/ci";
-
+import { Helmet } from "react-helmet-async";
+import { addProduct,  handleWishlistProducts } from "../LocalStores/LocalStore";
 const ProductDetails = () => {
     const { id } = useParams();
 
     // Destructuring useLoaderData()
     const { AllData: products = [] } = useLoaderData();
-    // console.log(products);
-
+   
     // Find the product by id
     const [detail, setDetail] = useState(null);
+    // eslint-disable-next-line no-unused-vars
+    const [disable, setDiseble] = useState(false)
+
     useEffect(() => {
-        const product = products.find((singleData) => singleData.product_id === id);
+        const product = products.find((singleData) => singleData.product_id == id);
         setDetail(product);
     }, [products, id]);
 
-    // console.log(detail);
-    // const {price, category} = detail
+
+
+    /* handle add to card btn */
+    const handleAddProduct = product => {
+        addProduct(product);
+    }
+
+    /* handle wishlist product */
+    const handleWishlistProduct = product => {
+        handleWishlistProducts(product);
+    }
     return (
         <>
             <div className="mx-4 bg-[#9538E2] rounded-md relative">
@@ -29,6 +41,9 @@ const ProductDetails = () => {
                 </div>
             </div>
             <div className="absolute top-72 md:top-72 right-24 md:right-44">
+                <Helmet>
+                    <title>product / details</title>
+                </Helmet>
                 {detail ? (
                     <div className="flex-col md:flex-row  md:w-[1050px] mx-auto card card-side bg-base-100 shadow-sm p-4 rounded-2xl gap-10">
                         <figure className="w-52 md:w-1/2 h-[200px] md:h-[450px]">
@@ -54,13 +69,13 @@ const ProductDetails = () => {
                                     <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" aria-label="1 star" />
                                     <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" aria-label="2 star" />
                                     <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" aria-label="3 star" />
-                                    <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" aria-label="4 star" defaultChecked  />
+                                    <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" aria-label="4 star" defaultChecked />
                                     <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" aria-label="5 star" />
                                     <span className="bg-white text-black ml-2 p-1 ">{detail.rating}</span>
                                 </div>
                                 <div className="flex justify-start items-center gap-3">
-                                    <button className="py-1 px-5 bg-[#8D36D6] rounded-2xl cursor-pointer">Add To Card</button>
-                                    <button className="text-3xl p-2 rounded-full bg-gray-200 cursor-pointer"><CiHeart></CiHeart></button>
+                                    <button onClick={() => handleAddProduct(detail)} className="py-1 px-5 bg-[#8D36D6] rounded-2xl cursor-pointer">Add To Card</button>
+                                    <button onClick={() => handleWishlistProduct(detail)} className="text-3xl p-2 rounded-full bg-gray-200 cursor-pointer"><CiHeart></CiHeart></button>
                                 </div>
                             </div>
                         </div>

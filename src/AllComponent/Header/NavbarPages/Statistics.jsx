@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import Page from "../../ResualComponent/Resual";
 
 const Statistics = () => {
     return (
@@ -6,7 +7,9 @@ const Statistics = () => {
             <Helmet>
                 <title>Satistic pages</title>
             </Helmet>
-            <h1>hey satictic</h1>
+            <div>
+                <Page title='Statistics' subTitle='Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!'/>
+            </div>
         </div>
     );
 };

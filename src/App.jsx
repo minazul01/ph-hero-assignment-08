@@ -2,22 +2,26 @@ import { Outlet } from 'react-router-dom';
 import Footer from './AllComponent/Footer/Footer';
 import Navbar from './AllComponent/Header/Navbar';
 import { Helmet } from 'react-helmet-async';
-
+import { Toaster } from 'react-hot-toast';
 function App() {
 
 
   return (
     <>
-      <div className='container mx-auto'>
+    <Toaster></Toaster>
+      <div className='container mx-auto overflow-hidden'>
         <Helmet>
-          <title>Home pages</title>
+          <title>Homoe / pages</title>
         </Helmet>
         <Navbar></Navbar>
         <div className='min-h-[calc(100vh-285px)]'>
+          <Helmet>
+            <title>Category /  Products</title>
+          </Helmet>
           <Outlet></Outlet>
         </div>
         <main>
-           
+
         </main>
         <Footer></Footer>
       </div>

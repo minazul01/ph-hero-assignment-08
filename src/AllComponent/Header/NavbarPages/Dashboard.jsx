@@ -1,11 +1,13 @@
 
+import DashboardCard from "./DashboardCard/DashboardCard";
+
+
 
 const Dashboard = () => {
     return (
         <div>
-            <h1>hello dashboard</h1>
-        </div>
+           <DashboardCard></DashboardCard>
+        </div >
     );
 };
-
 export default Dashboard;
